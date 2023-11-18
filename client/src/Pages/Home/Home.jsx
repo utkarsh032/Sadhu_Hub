@@ -1,7 +1,7 @@
 import React from 'react';
 import './Home.style.css';
-import Card from '../components/shared/Card/Card';
-import Button from '../components/shared/Button/Button';
+import Card from '../../components/shared/Card/Card';
+import Button from '../../components/shared/Button/Button';
 import { Link, useNavigate } from 'react-router-dom';
 import { SiHomebridge } from 'react-icons/si';
 

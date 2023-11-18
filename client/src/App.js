@@ -5,8 +5,10 @@ import {
 } from "react-router-dom";
 
 import './App.css'
-import Home from "./Pages/Home";
+
 import Navigation from "./components/shared/Navigation/Navigation";
+import Home from "./Pages/Home/Home";
+import Register from "./Pages/Register/Register";
 
 
 function App() {
@@ -15,6 +17,9 @@ function App() {
       <Navigation />
       <Routes>
         <Route path="/" element={<Home />} />
+      </Routes>
+      <Routes>
+        <Route path="/register" element={<Register />} />
       </Routes>
     </Router>
   );
