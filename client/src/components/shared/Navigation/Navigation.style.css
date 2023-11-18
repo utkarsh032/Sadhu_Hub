@@ -1,4 +1,19 @@
 .navbar {
   padding: 20px 0;
+  
 }
 
+.brandStyle{
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+}
+
+.logoStyle{
+  color: #FFFF00;
+  font-size: 2rem;
+  margin-right: 10px;
+}

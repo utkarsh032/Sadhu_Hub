@@ -1,9 +1,11 @@
 import './Button.style.css';
+import { FaArrowRight } from "react-icons/fa";
 
-export default function Button() {
+export default function Button({ text, onClick }) {
   return (
-    <div>
-      This is button
-    </div>
+    <button className='button' onClick={onClick}>
+      <span>{text}</span>
+      <FaArrowRight className='arrow' />
+    </button>
   )
 }
